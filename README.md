@@ -1,6 +1,6 @@
 # terraform-docs
 
-[![CircleCI](https://circleci.com/gh/segmentio/terraform-docs.svg?style=svg)](https://circleci.com/gh/segmentio/terraform-docs) [![Go Report Card](https://goreportcard.com/badge/github.com/segmentio/terraform-docs)](https://goreportcard.com/report/github.com/segmentio/terraform-docs)
+[![CircleCI](https://circleci.com/gh/segmentio/terraform-docs.svg?style=svg)](https://circleci.com/gh/segmentio/terraform-docs) [![Go Report Card](https://goreportcard.com/badge/github.com/torresfred/terraform-docs)](https://goreportcard.com/report/github.com/torresfred/terraform-docs)
 
 > **A utility to generate documentation from Terraform modules in various output formats.**
 
@@ -22,7 +22,7 @@ This project is no longer maintained by Segment. Instead, [Martin Etmajer](https
 The latest version can be installed using `go get`:
 
 ``` bash
-go get github.com/segmentio/terraform-docs
+go get github.com/torresfred/terraform-docs
 ```
 
 If you are a Mac OS X user, you can use [Homebrew](https://brew.sh):
@@ -31,7 +31,7 @@ If you are a Mac OS X user, you can use [Homebrew](https://brew.sh):
 brew install terraform-docs
 ```
 
-For other platforms, please have a look at our [binary releases](https://github.com/segmentio/terraform-docs/releases).
+For other platforms, please have a look at our [binary releases](https://github.com/torresfred/terraform-docs/releases).
 
 ## Getting Started
 

@@ -3,10 +3,10 @@ package json_test
 import (
 	"testing"
 
-	"github.com/segmentio/terraform-docs/internal/pkg/doc"
-	"github.com/segmentio/terraform-docs/internal/pkg/print"
-	"github.com/segmentio/terraform-docs/internal/pkg/print/json"
-	"github.com/segmentio/terraform-docs/internal/pkg/settings"
+	"github.com/torresfred/terraform-docs/internal/pkg/doc"
+	"github.com/torresfred/terraform-docs/internal/pkg/print"
+	"github.com/torresfred/terraform-docs/internal/pkg/print/json"
+	"github.com/torresfred/terraform-docs/internal/pkg/settings"
 	"github.com/stretchr/testify/assert"
 )
 

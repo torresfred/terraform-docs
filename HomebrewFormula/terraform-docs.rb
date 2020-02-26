@@ -1,7 +1,7 @@
 class TerraformDocs < Formula
   desc "Tool to generate documentation from Terraform modules"
-  homepage "https://github.com/segmentio/terraform-docs"
-  url "https://github.com/segmentio/terraform-docs/archive/v0.5.0.tar.gz"
+  homepage "https://github.com/torresfred/terraform-docs"
+  url "https://github.com/torresfred/terraform-docs/archive/v0.5.0.tar.gz"
   sha256 ""
 
   bottle do
@@ -17,7 +17,7 @@ class TerraformDocs < Formula
 
   def install
     ENV["GOPATH"] = buildpath
-    dir = buildpath/"src/github.com/segmentio/terraform-docs"
+    dir = buildpath/"src/github.com/torresfred/terraform-docs"
     dir.install buildpath.children
 
     cd dir do

@@ -10,8 +10,8 @@ import (
 
 	"github.com/hashicorp/hcl"
 	"github.com/hashicorp/hcl/hcl/ast"
-	"github.com/segmentio/terraform-docs/internal/pkg/fs"
-	hclparser "github.com/segmentio/terraform-docs/internal/pkg/hcl"
+	"github.com/torresfred/terraform-docs/internal/pkg/fs"
+	hclparser "github.com/torresfred/terraform-docs/internal/pkg/hcl"
 )
 
 // Doc represents a Terraform module.

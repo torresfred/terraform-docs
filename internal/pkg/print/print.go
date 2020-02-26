@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/segmentio/terraform-docs/internal/pkg/doc"
-	"github.com/segmentio/terraform-docs/internal/pkg/settings"
+	"github.com/torresfred/terraform-docs/internal/pkg/doc"
+	"github.com/torresfred/terraform-docs/internal/pkg/settings"
 )
 
 const (
